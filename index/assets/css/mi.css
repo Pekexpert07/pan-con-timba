@@ -1,0 +1,37 @@
+#wrapper {
+    background: white;
+}
+#header {
+    color: black;
+    background-image: none;
+}
+#header > *::before {
+    background: black;
+}
+#header .logo {
+    border-color: black;
+    height: auto;
+    width: auto;
+    line-height: normal;
+}
+.logo > img {
+    height: 95px;
+}
+#header .content {
+    border-color: black;
+}
+h1 {
+    color: black;
+}
+#header nav ul {
+    border-color: black;
+}
+#header nav ul li {
+    border-color: black;
+}
+#header nav ul li a {
+    font-weight: bold;
+}
+#header nav.use-middle:after {
+    background: black;
+}

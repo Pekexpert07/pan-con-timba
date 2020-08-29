@@ -1,0 +1,9 @@
+#header h1 {
+    color: #5fc4e2;
+}
+#titleBar, #navPanel {
+    display: none;
+}
+#banner {
+    background-color: black;
+}
